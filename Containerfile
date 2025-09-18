@@ -3,7 +3,9 @@ FROM scratch AS ctx
 COPY build_files /
 
 # Base Image
-FROM quay.io/fedora/fedora-budgie-atomic:42
+FROM quay.io/fedora-ostree-desktops/budgie-atomic:43 
+
+# quay.io/fedora/fedora-budgie-atomic:42
 
 ## Other possible base images include:
 # FROM ghcr.io/ublue-os/bazzite:latest

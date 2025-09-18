@@ -13,6 +13,7 @@ FROM quay.io/fedora/fedora-budgie-atomic:42
 # ghcr.io/ublue-os/bluefin:stable
 # Universal Blue Images: https://github.com/orgs/ublue-os/packages
 # Fedora base image: quay.io/fedora/fedora-bootc:41
+# Fedora: Dev - quay.io/fedora-ostree-desktops/budgie-atomic:43
 # CentOS base images: quay.io/centos-bootc/centos-bootc:stream10
 
 ### MODIFICATIONS

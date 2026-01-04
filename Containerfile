@@ -4,7 +4,9 @@ COPY build_files /
 
 # Base Image
 # FROM quay.io/fedora-ostree-desktops/budgie-atomic:43 
-FROM quay.io/fedora-ostree-desktops/kinoite:43 
+# FROM quay.io/fedora-ostree-desktops/kinoite:43 
+FROM ghcr.io/ublue-os/bazzite-deck:latest
+
 
 # quay.io/fedora/fedora-budgie-atomic:42
 
